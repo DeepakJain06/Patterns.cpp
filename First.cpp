@@ -9,9 +9,9 @@ void pattern1(){
         cout << endl;
     }
 }
-void pattern2(int t){
-    for (int i = 0; i < t; i++){
-        for (int j = 0; j < t; j++){
+void pattern2(){
+    for (int i = 0; i < 5; i++){
+        for (int j = 0; j <= i; j++){
             cout << " D ";
         }
         cout << endl;
@@ -19,8 +19,8 @@ void pattern2(int t){
 }
 
 int main(){
-    int t;
-    cin >> t;
-    pattern2(t);
+    // int t;
+    // cin >> t;
+    pattern2();
     return 0;
 }
