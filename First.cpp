@@ -2,10 +2,9 @@
 using namespace std;
 
 void pattern1(){
-
     for(int i=0; i<10; i++){
         for(int j=0; j<6; j++){
-            cout << "💖";
+            cout << " D ";
         }
         cout << endl;
     }
