@@ -1,8 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
-int age = 1;
+int age = -100;
 void makingInterest(){
-    if(age==29){
+    if(age==0){
         return;}
         cout << age << endl;
         age++;
