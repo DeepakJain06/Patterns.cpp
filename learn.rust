@@ -1,0 +1,7 @@
+stuct person {
+    name:string,
+    age: int;
+
+}
+
+i
